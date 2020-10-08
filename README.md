@@ -83,6 +83,12 @@ Should display camera picture on onboard GPDI output
 
 Many thanks for sponsorships and help:
 
+### Radiona
+
+* [Radiona webpage](https://radiona.org/)
+
+<img src="pic/radiona_makerspace_logo.png" width="300"> 
+
 ### OSH Park
 
 * [OSH Park webpage](https://oshpark.com/)
