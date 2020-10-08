@@ -12,9 +12,21 @@ As for the USB - this is the only way to connect it, as at TOP RIGHT corner ULX3
 
 Be carefull when you connect other PMODS to that place!
 
+On USB PMOD there is also experimental area (J2) and placeholders for IR LEDs and IR Receiver.
+
+LEDs are connected in series are driven from 5V with 2N7002 N-channel MOSFET already placed onboard.
+
+https://github.com/goran-mahovlic/ulx3s-PMOD/tree/master/USB
+
+https://oshpark.com/shared_projects/TgORPIvj
+
 ### GPDI
 
 As for the GPDI - GPDI IN is designed for this position as on this position we have all differential bidirectional pins gp[11:9],gn[11:9] allong differential clock capable pins gp[12],gn[12]
+
+https://github.com/goran-mahovlic/ulx3s-PMOD/tree/master/GPDI_ULX3S_PMOD
+
+https://oshpark.com/shared_projects/18Ev7IXp
 
 ## OV7670
 
@@ -24,7 +36,11 @@ Sugested way of connecting OV7670 is this:
 
 You can also test other ways of connection just be warned about TOP RIGHT 5V from ULX3S!
 
-## Code: 
+https://github.com/goran-mahovlic/ulx3s-PMOD/tree/master/OV7670
+
+https://oshpark.com/shared_projects/qdydUa2Y
+
+## Code
 
 ### USB
 
@@ -65,3 +81,7 @@ If you need help, please let us know:
 ### Email
 
     ulx3s.fpga@gmail.com (If you do not use chats)
+
+PMOD designs was sponsered by:
+
+![OSH Park(https://github.com/goran-mahovlic/ulx3s-PMOD/blob/master/pic/HexLogo-Purple.svg)
