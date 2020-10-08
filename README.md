@@ -16,17 +16,16 @@ On USB PMOD there is also experimental area (J2) and placeholders for IR LEDs an
 
 LEDs are connected in series are driven from 5V with 2N7002 N-channel MOSFET already placed onboard.
 
-	https://github.com/goran-mahovlic/ulx3s-PMOD/tree/master/USB
+* [USB design files](hhttps://github.com/goran-mahovlic/ulx3s-PMOD/tree/master/USB)
 
-	https://oshpark.com/shared_projects/TgORPIvj
+* [OSH Park PCB ordering](https://oshpark.com/shared_projects/TgORPIvj)
 
 ### GPDI
 
 As for the GPDI - GPDI IN is designed for this position as on this position we have all differential bidirectional pins gp[11:9],gn[11:9] allong differential clock capable pins gp[12],gn[12]
 
-	https://github.com/goran-mahovlic/ulx3s-PMOD/tree/master/GPDI_ULX3S_PMOD
-
-	https://oshpark.com/shared_projects/18Ev7IXp
+* [GPDI design files](https://github.com/goran-mahovlic/ulx3s-PMOD/tree/master/GPDI_ULX3S_PMOD)
+* [OSH Park PCB ordering](https://oshpark.com/shared_projects/18Ev7IXp)
 
 ## OV7670
 
@@ -36,15 +35,14 @@ Sugested way of connecting OV7670 is this:
 
 You can also test other ways of connection just be warned about TOP RIGHT 5V from ULX3S!
 
-	https://github.com/goran-mahovlic/ulx3s-PMOD/tree/master/OV7670
-
-	https://oshpark.com/shared_projects/qdydUa2Y
+* [PMOD design files](https://github.com/goran-mahovlic/ulx3s-PMOD/tree/master/OV7670)
+* [OSH Park PCB ordering](https://oshpark.com/shared_projects/qdydUa2Y)
 
 ## Code
 
 ### USB
 
-	https://github.com/emard/ulx3s-misc/tree/master/examples/usb/proj/lattice/ulx3s/usbhid_host
+* [USB project](https://github.com/emard/ulx3s-misc/tree/master/examples/usb/proj/lattice/ulx3s/usbhid_host)
 
 Should output some HEX on OLED and onboard GPDI output
 
@@ -54,17 +52,21 @@ When you connect keyboard to US3 or US4 (or both) you should see some change...
 
 GPDI OUT (you will need to adapt pins in lpf and top module)
 
-	https://github.com/emard/ulx3s-misc/tree/master/examples/dvi
+* [GPDI OUT project](https://github.com/emard/ulx3s-misc/tree/master/examples/dvi)
 
 GPDI IN (Use buttons to sync all signals (R,G,B,CLOCK))
 
-	https://github.com/emard/ulx3s-misc/tree/master/examples/dvi_in
+* [GPDI IN project](https://github.com/emard/ulx3s-misc/tree/master/examples/dvi_in)
 
 ### OV7670
 
-	https://github.com/emard/ulx3s-misc/tree/master/examples/ov7670_dvi/proj/ulx3s_ov7670_dvi
+* [OV7670 project](https://github.com/emard/ulx3s-misc/tree/master/examples/ov7670_dvi/proj/ulx3s_ov7670_dvi)
 
 Should display camera picture on onboard GPDI output
+
+### PMOD set orders
+
+* [CrowdSupply campaign page](https://www.crowdsupply.com/radiona/ulx3s)
 
 If you need help, please let us know:
 
@@ -72,11 +74,11 @@ If you need help, please let us know:
 
 ### Discord chanel
 
-    https://discord.gg/qwMUk6W (problems/question/general chat)
+* [Discord chat](https://discord.gg/qwMUk6W) Problems/question/general chat
 
 ### Gitter chanel
 
-    https://gitter.im/ulx3s/Lobby (Focused on development)
+* [Gitter chat](https://gitter.im/ulx3s/Lobby) Focused on development
 
 ### Email
 
@@ -84,24 +86,23 @@ If you need help, please let us know:
 
 Many thanks for sponsorships and help:
 
-OSH Park
+### OSH Park
 
-	https://oshpark.com/
+* [OSH Park webpage](https://oshpark.com/)
 
-![OSH Park](https://github.com/goran-mahovlic/ulx3s-PMOD/blob/master/pic/HexLogo-Purple.svg)
+<img src="pic/HexLogo-Purple.svg" width="300" height="300"> 
 
-Shuttleworth foundation
+### Shuttleworth foundation
 
-	https://shuttleworthfoundation.org/
+* [Shuttleworth webpage](https://shuttleworthfoundation.org/)
 
 ![Shuttleworth](https://github.com/ShuttleworthFoundation/Logos/blob/master/Shuttleworth%20Funded/Shuttleworth%20Funded%20Black/Shuttleworth%20Funded.svg)
 
-IRNAS
+### IRNAS
 
-	https://www.irnas.eu/
-
-	https://github.com/IRNAS
-
+* [IRNAS webpage](https://www.irnas.eu/)
+* [IRNAS git](https://github.com/IRNAS)
+	
 <img src="https://github.com/IRNAS/smartparks-rhino-tracker-mechanics/blob/master/logo/irnas-logo.png" height="80">
 
 Helping hands: Marvin(Radiona), Emard(Radiona), Prizma(Radiona), mmicko, Drew Fustini (OSH Park), SnapEDA, smunaut(tnt)
