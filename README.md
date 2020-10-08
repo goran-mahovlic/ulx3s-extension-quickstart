@@ -82,6 +82,26 @@ If you need help, please let us know:
 
     ulx3s.fpga@gmail.com (If you do not use chats)
 
-PMOD designs was sponsered by:
+Many thanks for sponsorships and help:
 
-![OSH Park(https://github.com/goran-mahovlic/ulx3s-PMOD/blob/master/pic/HexLogo-Purple.svg)
+OSH Park
+
+	https://oshpark.com/
+
+![OSH Park](https://github.com/goran-mahovlic/ulx3s-PMOD/blob/master/pic/HexLogo-Purple.svg)
+
+Shuttleworth foundation
+
+	https://shuttleworthfoundation.org/
+
+![Shuttleworth](https://github.com/ShuttleworthFoundation/Logos/blob/master/Shuttleworth%20Funded/Shuttleworth%20Funded%20Black/Shuttleworth%20Funded.svg)
+
+IRNAS
+
+	https://www.irnas.eu/
+
+	https://github.com/IRNAS
+
+<img src="https://github.com/IRNAS/smartparks-rhino-tracker-mechanics/blob/master/logo/irnas-logo.png" height="80">
+
+Helping hands: Marvin(Radiona), Emard(Radiona), Prizma(Radiona), mmicko, Drew Fustini (OSH Park), SnapEDA, smunaut(tnt)
