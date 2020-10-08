@@ -61,3 +61,7 @@ If you need help, please let us know:
 ### Gitter chanel
 
     https://gitter.im/ulx3s/Lobby (Focused on development)
+
+### Email
+
+    ulx3s.fpga@gmail.com (If you do not use chats)
