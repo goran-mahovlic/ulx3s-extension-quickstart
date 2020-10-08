@@ -16,8 +16,7 @@ On USB PMOD there is also experimental area (J2) and placeholders for IR LEDs an
 
 LEDs are connected in series are driven from 5V with 2N7002 N-channel MOSFET already placed onboard.
 
-* [USB design files](hhttps://github.com/goran-mahovlic/ulx3s-PMOD/tree/master/USB)
-
+* [USB design files](https://github.com/goran-mahovlic/ulx3s-PMOD/tree/master/USB)
 * [OSH Park PCB ordering](https://oshpark.com/shared_projects/TgORPIvj)
 
 ### GPDI
@@ -67,8 +66,6 @@ Should display camera picture on onboard GPDI output
 ### PMOD set orders
 
 * [CrowdSupply campaign page](https://www.crowdsupply.com/radiona/ulx3s)
-
-If you need help, please let us know:
 
 ## Chat and support
 
