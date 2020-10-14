@@ -1,29 +1,29 @@
-# PMOD-quickstart
+# ULX3S extension boards quickstart
 
 ## USB and GPDI
 
-Sugested way of connecting GPDI and USB PMOD is this:
+Sugested way of connecting GPDI and USB is this:
 
-![PMOD_USB_GPDI](pic/GPDI_USB.png)
+![USB_GPDI](pic/GPDI_USB.png)
 
 ### USB
 
 As for the USB - this is the only way to connect it, as at TOP RIGHT corner ULX3S has 5V pins.
 
-Be carefull when you connect other PMODS to that place!
+Be carefull when you connect other boards to that place!
 
-On USB PMOD there is also experimental area (J2) and placeholders for IR LEDs and IR Receiver.
+On USB there is also experimental area (J2) and placeholders for IR LEDs and IR Receiver.
 
 LEDs are connected in series are driven from 5V with 2N7002 N-channel MOSFET already placed onboard.
 
-* [USB design files](https://github.com/goran-mahovlic/ulx3s-PMOD/tree/master/USB)
+* [USB design files](https://github.com/goran-mahovlic/ulx3s-extensions)
 * [OSH Park PCB ordering](https://oshpark.com/shared_projects/TgORPIvj)
 
 ### GPDI
 
 As for the GPDI - GPDI IN is designed for this position as on this position we have all differential bidirectional pins gp[11:9],gn[11:9] allong differential clock capable pins gp[12],gn[12]
 
-* [GPDI design files](https://github.com/goran-mahovlic/ulx3s-PMOD/tree/master/GPDI_ULX3S_PMOD)
+* [GPDI design files](https://github.com/goran-mahovlic/ulx3s-extensions/tree/master/GPDI_ULX3S)
 * [OSH Park PCB ordering](https://oshpark.com/shared_projects/18Ev7IXp)
 
 ## OV7670
@@ -34,7 +34,7 @@ Sugested way of connecting OV7670 is this:
 
 You can also test other ways of connection just be warned about TOP RIGHT 5V from ULX3S!
 
-* [PMOD design files](https://github.com/goran-mahovlic/ulx3s-PMOD/tree/master/OV7670)
+* [PMOD design files](https://github.com/goran-mahovlic/ulx3s-extensions/tree/master/OV7670)
 * [OSH Park PCB ordering](https://oshpark.com/shared_projects/qdydUa2Y)
 
 ## Code
