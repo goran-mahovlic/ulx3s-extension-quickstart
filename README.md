@@ -34,7 +34,7 @@ Sugested way of connecting OV7670 is this:
 
 You can also test other ways of connection just be warned about TOP RIGHT 5V from ULX3S!
 
-* [PMOD design files](https://github.com/goran-mahovlic/ulx3s-extensions/tree/master/OV7670)
+* [design files](https://github.com/goran-mahovlic/ulx3s-extensions/tree/master/OV7670)
 * [OSH Park PCB ordering](https://oshpark.com/shared_projects/qdydUa2Y)
 
 ## Code
@@ -63,7 +63,7 @@ GPDI IN (Use buttons to sync all signals (R,G,B,CLOCK))
 
 Should display camera picture on onboard GPDI output
 
-### PMOD set orders
+### Extensions set orders
 
 * [CrowdSupply campaign page](https://www.crowdsupply.com/radiona/ulx3s)
 
